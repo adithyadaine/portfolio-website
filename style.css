@@ -1,12 +1,12 @@
 /* --- Global Styles & Dark Theme --- */
 body {
-    font-family: monospace, sans-serif; 
-    margin: 0;
-    padding: 20px;
-    background-color: #121212;
-    color: #e0e0e0;
-    line-height: 1.7;
-    font-size: 14px;
+  font-family: monospace, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.7;
+  font-size: 14px;
 }
 
 /* --- Layout Container --- */
@@ -135,4 +135,15 @@ footer {
   font-size: 0.85em; /* Make the text a bit smaller */
   margin-right: 8px; /* Space between tags */
   margin-bottom: 8px; /* Space for when tags wrap to the next line */
+}
+
+/* Find this rule at the bottom of your style.css file */
+h1 span {
+  /* Change this line */
+  font-size: 0.4em; /* Was 0.5em */
+
+  color: #a0a0a0;
+  font-weight: normal;
+  vertical-align: middle;
+  margin-left: 10px;
 }
