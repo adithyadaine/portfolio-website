@@ -1,0 +1,138 @@
+/* --- Global Styles & Dark Theme --- */
+body {
+    font-family: monospace, sans-serif; 
+    margin: 0;
+    padding: 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* --- Layout Container --- */
+.container {
+  max-width: 700px; /* Narrower, single-column layout */
+  margin: 40px auto; /* Center the content with space on top/bottom */
+}
+
+/* --- Links --- */
+a {
+  color: #bb86fc; /* A nice violet/blue accent color for dark mode */
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+  transform: translateY(-2px); /* This creates the hover animation */
+}
+
+/* --- Header --- */
+header {
+  margin-bottom: 60px;
+}
+
+header h1 {
+  font-size: 2.5em; /* Large and impactful name */
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+
+header .intro {
+  font-size: 1.1em;
+  color: #a0a0a0; /* Slightly dimmer text for the intro */
+}
+
+.contact-links-header {
+  margin-top: 20px;
+}
+
+.contact-links-header a {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+/* --- Sections --- */
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 1.2em;
+  color: #fff;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* New styles for alignment */
+  display: flex;
+  align-items: center;
+}
+
+section h2 i {
+  margin-right: 15px; /* Adds space between icon and text */
+  color: #bb86fc; /* Use accent color for the icon */
+}
+
+/* --- List Items (for Experience & Projects) --- */
+.list-item {
+  margin-bottom: 30px;
+}
+
+.list-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #f5f5f5;
+}
+
+.list-item h3 a {
+  color: #f5f5f5; /* Project titles are links */
+}
+
+.list-item p {
+  margin: 0;
+  color: #a0a0a0;
+}
+
+.list-item .company {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  margin-top: 80px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* --- Tech Stack Tags --- */
+.tech-stack {
+  margin-top: 20px;
+}
+
+.tech-stack i {
+  font-size: 2em; /* Make icons larger */
+  color: #a0a0a0; /* Dimmer color for a subtle look */
+  margin-right: 15px;
+  transition: color 0.3s ease; /* Add transition for hover effect */
+}
+
+.tech-stack i:hover {
+  color: #fff; /* Brighten icon on hover */
+}
+
+.tech-stack span {
+  display: inline-block;
+  background-color: #333; /* Dark background for the tag */
+  color: #bbb; /* Lighter text color */
+  padding: 4px 10px; /* Vertical and horizontal padding */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 0.85em; /* Make the text a bit smaller */
+  margin-right: 8px; /* Space between tags */
+  margin-bottom: 8px; /* Space for when tags wrap to the next line */
+}
