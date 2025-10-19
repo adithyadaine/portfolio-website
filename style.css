@@ -147,3 +147,8 @@ h1 span {
   vertical-align: middle;
   margin-left: 10px;
 }
+
+/* Styling for header icons */
+.contact-links-header a i {
+  font-size: 1.5rem; /* Increases the size of the icons */
+}
