@@ -148,6 +148,33 @@ h1 span {
   margin-left: 10px;
 }
 
+/* --- Skill Badges --- */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-tags span {
+  display: inline-block;
+  background-color: #2d2d2d; /* Dark grey background */
+  color: #e0e0e0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: inherit; /* Keep consistent font */
+  font-size: 0.9em;
+  border: 1px solid #333; /* Subtle border for definition */
+  transition: all 0.2s ease;
+}
+
+.skill-tags span:hover {
+  background-color: #3d3d3d;
+  border-color: #555;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
 /* Styling for header icons */
 .contact-links-header a i {
   font-size: 1.5rem; /* Increases the size of the icons */
